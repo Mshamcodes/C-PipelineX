@@ -1,3 +1,7 @@
+# Automated test for a simple calculator program
+# This script tests basic arithmetic operations using a subprocess to run the calculator program.
+# It checks for correct results and error handling, such as division by zero.
+
 import subprocess
 import pytest
 
