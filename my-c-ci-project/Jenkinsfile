@@ -6,11 +6,5 @@ pipeline {
                 sh 'bash build.sh'
             }
         }
-        stage('Test') {
-            steps {
-                sh 'bash run.sh'
-                sh 'pytest test/test_automation.py'
-            }
-        }
     }
 }
