@@ -22,5 +22,5 @@ my-c-ci-project/
 
 ## Jenkins Pipeline
 
-The Jenkinsfile defines two stages:
+The Jenkinsfile defines the following stage:
 1. **Build**: Compiles the C code.
